@@ -1,0 +1,270 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: auto;
+    /* border: 1px solid red; */
+    max-width: 1440px;
+}
+
+/* front banner */
+
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    height: 650px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid green;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-title {
+    /* padding: 197px 1702px 32px 240px; */
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* margin: 32px 170px 32px 240px; */
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 20px 40px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner-pic {
+    /* width: 500px; */
+    /* padding: 50px 240px 0 1045px; */
+    height: 100%;
+
+}
+
+
+/* Our featured flowers */
+
+.section-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    padding-left: 340px;
+}
+
+.our-flowers {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin: 48px 240px;
+}
+.our-flowers h4{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.flowers1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flowers2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flowers3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower1,
+.flower2,
+.flower3 {
+    padding: 110px 75px 0 75px;
+    width: 464px;
+    height: 538px;
+    text-align: center;
+}
+
+.section-title,
+.section-description {
+    text-align: center;
+}
+
+
+/* sales */
+.sales {
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    padding: 80px 150px;
+}
+
+.hot-deal {
+    align-items: center;
+}
+
+.sales-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 100px;
+}
+
+.text-primary {
+    color: #E55473;
+
+}
+
+.sales-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.sales .btn-primary {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 270px;
+}
+
+/* Instagram */
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 350px 50px 350px;
+
+}
+
+.insta-pic {
+    display: flex;
+    gap: 24px;
+    margin: 0 50px 0 p;
+
+}
+
+/* footer */
+.footer {
+    background: #111010;
+    padding: 50px 430px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-family: Lato;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.footer-title-span {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.latest-deal {
+    height: 500px;
+    width: 100%;
+    background-image: url('../flower-shop-assignment-main/Flower Asset/Rectangle 9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.back-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.back-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input {
+    width: 700px;
+    height: 64px;
+    background-color: white;
+
+}
