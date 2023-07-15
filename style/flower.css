@@ -74,19 +74,12 @@ body {
     align-items: center;
     padding-left: 340px;
 }
-.our-flowers-section{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .our-flowers {
     display: flex;
     gap: 24px;
     align-items: center;
     
-    width: 75%;
 }
 
 .our-flowers h4 {
@@ -127,12 +120,7 @@ body {
     justify-content: center;
 }
 
-.flower1,
-.flower2,
-.flower3 {
 
-    text-align: center;
-}
 
 .section-title,
 .section-description {
